@@ -1,0 +1,1 @@
+[2026-05-05 09:36:26] Signup Email Error: SMTP Error: Could not connect to SMTP host. SMTP server error: QUIT command failed
