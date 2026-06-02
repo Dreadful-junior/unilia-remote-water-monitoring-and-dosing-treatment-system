@@ -1,0 +1,54 @@
+# Database credentials and configuration
+db_connect.php
+config/db.php
+config/email.php
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs and temporary files
+logs/*
+*.log
+email_error_log.txt
+api/receive_debug.log
+api/toggle_log.txt
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Testing and scratch files
+scratch/
+test_*.php
+check_*.php
+dump_*.php
+fix_*.php
+quick_test.php
+update_*.php
+setup_*.php
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node modules (if using any)
+node_modules/
+
+# Build and compiled files
+/build/
+/dist/
+
+# Database exports and backups
+*.sql
+*.sql.gz
